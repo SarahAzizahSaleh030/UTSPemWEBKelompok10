@@ -320,3 +320,166 @@ html{
   position: fixed;
   border-radius: 50px;
   height: 50px;
+.heading2 span{
+  color: #b2744c;
+}
+.top-cards .container{
+  margin-top: 30px;
+}
+.top-cards .card{
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.top-cards .card img{
+  border-radius: 10px;
+}
+.top-cards .card h3{
+  text-align: center;
+  padding-top: 78px;
+  color: white;
+}
+.top-cards .card:hover{
+  transform: translateY(-10px);
+}
+@media screen and (max-width:767px){
+ .top-cards{
+  height: 170vh;
+ } 
+}
+@media screen and (max-width:500px){
+ .top-cards{
+  height: 150vh;
+ } 
+}
+@media screen and (max-width:370px){
+ .top-cards{
+  height: 120vh;
+ } 
+}
+/* top cards */
+
+
+
+
+
+
+
+/* menu */
+.menu{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: #b2744c;
+  font-weight: bold;
+  border-bottom: 2px solid #b2744c;
+}
+#container2{
+  margin-top: 20px;
+}
+.menu .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+  color: #b2744c;
+}
+.menu h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p{
+  font-size: 16px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+.menu p span{
+  float: right;
+  cursor: pointer;
+}
+/* menu */
+
+
+
+
+
+
+
+/* product */
+.product{
+  width: 100%;
+  background: #f7f5f2;
+  font-family: 'Roboto', sans-serif;
+}
+.heading4{
+  text-align: center;
+  color: #b2744c;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px;
+  border-bottom: 2px solid #b2744c;
+}
+#container3{
+  margin-top: 30px;
+}
+.product h3{
+  text-align: center;
+  color: #b2744c;
+  font-size: 23px;
+}
+.product p{
+  color: #b2744c;
+  padding-top: 10px;
+}
+.product p span{
+  float: right;
+  cursor: pointer;
+}
+/* product */
+
+
+
+
+
+
+
+/* gallary */
+#gallary{
+  width: 100%;
+}
+#gallary h1{
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  font-weight: bold;
+}
+#gallary h1 span{
+  color: #b2744c;
+}
+#gallary .card{
+  border-radius: 10px;
+}
+#gallary .card img{
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* gallary */
+
+
+
+
+/* contact */
+.contact{
+  width: 100%;
+  height: 100vh;
+  background: #f7f5f2;
+  padding-top: 70px;
+}
+.contact .container{
+  width: 100%;
